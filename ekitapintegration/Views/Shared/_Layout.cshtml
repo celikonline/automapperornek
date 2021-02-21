@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <title>
+        Mikro Kitap - Senin Dünyan
+    </title>
+    <meta property="og:site_name" content="Mikro Kitap - Senin Dünyan" />
+    <meta property="og:description" content="Çocuk Kitapları, Boyama Kitapları, Edebiyat Kitapları, Kitap Setleri ve daha fazlası Avantajlı Fiyatlarla Hızlı Kargo mikrokitap.com.tr&#39;de!" />
+    <meta property="og:image" content="https://www.mikrokitap.com.tr/Uploads/EditorUploads/Mikro%20Kitap%20G%C3%BCncel.png" />
+    <meta property="og:title" content="Mikro Kitap - Senin Dünyan" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.mikrokitap.com.tr" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Mikro Kitap</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
